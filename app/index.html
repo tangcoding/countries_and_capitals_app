@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='country_app'>
+<head>
+	<meta charset="UTF-8">
+	<title>Counties and Capitals</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!-- build:js ./_assets/combined.js -->
+
+    <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="./ctr_app.js"></script>
+    <script type="text/javascript" src="./countries.js"></script>
+    <script type="text/javascript" src="./country_detail.js"></script>
+
+<!-- endbuild  -->
+
+</head>
+
+
+<body ng-class="{loading: isLoading}">
+
+	<div class="header">
+		<h1>Counties and Capitals</h1>
+		<hr/>
+		
+	</div> <!--.header -->
+
+
+
+    <div ng-view class="container"></div>
+
+   
+
+</body>
+</html>

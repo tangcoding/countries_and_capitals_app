@@ -1,0 +1,110 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.header{
+	margin: 25px auto;
+}
+
+
+
+.container{
+	margin: 25px auto;
+	width: 80%;
+}
+
+button{
+	height: 2rem;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px 2px black;
+	padding: 5px;
+	margin: 25px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+table{
+	border-collapse: collapse;
+	display: block;
+	width: 700px;
+	height: 500px;
+	overflow-y: scroll;
+	margin: 25px auto;
+	font-size: 0.8rem;
+	box-shadow: 0 3px  5px 5px #ccc;
+}
+
+tr.ctr_table{
+	display: block;
+	margin: 25px auto;
+	width: 700px;
+	height: 600px;
+	overflow-y: scroll;
+	border-collapse: collapse;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+tr{
+	height: 35px;
+}
+
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+.tb_header{
+	background-color: grey;
+}
+
+td{
+	width: 100px;
+	text-align: left;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 10px;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.country_img{
+	display: block;
+}
+
+.country_img img{
+	margin: 25px;
+	padding: 10px;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+span{
+	text-decoration: underline;
+	color: blue;
+	font-size: 0.8rem;
+	padding: 15px;
+}
+
+/* animation setting */
+.loading {
+  height:100%;
+}
+
+.loading:before {
+  position:absolute;
+  content:"";
+  left:0;
+  bottom:0;
+  right:0;
+  top:0;
+  z-index:1000;
+  background:rgba(255,255,255,0.9) no-repeat center center;
+  background-image: url('./loading-animation.gif');
+}
+

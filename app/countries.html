@@ -1,0 +1,23 @@
+	<table class="ctr_table">
+		<tr class="tb_header">
+			<td>Name</td>
+			<td>Country Code</td>
+			<td>Capital</td>
+			<td>Area in KM2</td>
+			<td>Population</td>
+			<td>Continent</td>
+		</tr>
+
+
+		<tr ng-repeat='country in countries' ng-click='ctr_click(country)'>
+			    <td>{{country.countryName}}</td>
+			    <td>{{country.countryCode}}</td>
+			    <td>{{country.capital}}</td>
+			    <td>{{country.areaInSqKm | number}}</td>
+			    <td>{{country.population | number}}</td>
+			    <td>{{country.continent}}</td>
+		</tr>
+	</table>
+
+	<a href="#/home"><button>Home</button></a>
+	

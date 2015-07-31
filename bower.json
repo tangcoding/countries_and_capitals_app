@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "main": "app.js",
+  "version": "0.0.0",
+  "authors": [
+    "Wenjie Tang <twj916@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angular-animate": "~1.4.3"
+  }
+}
