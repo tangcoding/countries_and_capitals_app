@@ -57,9 +57,8 @@ tr{
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #FFF}
 
-.tb_header{
-	background-color: grey;
-}
+tr:first-child {background: grey}
+
 
 td{
 	width: 100px;
